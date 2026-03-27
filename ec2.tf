@@ -11,7 +11,7 @@ resource "aws_instance" "test_instance" {
   key_name      = "myawskey"
 
   tags = {
-    Name = "Test-Instance"
+    Name = "Test-instance"
     Environment = "Dev"
   } 
 }
